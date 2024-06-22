@@ -7,7 +7,7 @@ import { fadeIn } from "../variants";
 
 const Work = () => {
   return (
-    <div id="work" className="section">
+    <section id="work" className="section">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
           {/* text */}
@@ -99,7 +99,7 @@ const Work = () => {
           </motion.div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

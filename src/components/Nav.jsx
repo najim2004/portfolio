@@ -30,6 +30,7 @@ const Nav = () => {
           </Link>
           <Link
             to="services"
+            offset={2}
             activeClass="active"
             smooth={true}
             spy={true}
@@ -39,6 +40,7 @@ const Nav = () => {
           </Link>
           <Link
             to="work"
+            offset={2}
             activeClass="active"
             smooth={true}
             spy={true}
@@ -51,6 +53,7 @@ const Nav = () => {
             activeClass="active"
             smooth={true}
             spy={true}
+            offset={2}
             className="cursor-pointer size-[60px] flex items-center justify-center"
           >
             <BsChatSquareText />

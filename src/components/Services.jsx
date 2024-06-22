@@ -24,7 +24,7 @@ const services = [
 ];
 const Services = () => {
   return (
-    <div id="services" className="section">
+    <section id="services" className="section">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           {/* text */}
@@ -82,7 +82,7 @@ const Services = () => {
           </motion.div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
